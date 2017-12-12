@@ -1,0 +1,208 @@
+#container{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item, .navbar-brand{
+    font-size: 125%;
+}
+
+#xheight{
+    max-height: 750px
+}
+
+#yheight{
+    max-height: 480px
+}
+
+#aboutus{
+    background-color: #ffffff;
+}
+
+.hr-width{
+    max-width:150px;
+}
+
+.para{
+    color: #10A5AB;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "PT Serif";
+}
+
+.para1{
+    color: #777777;
+    font-size: 100%;
+    text-align: left;
+    line-height:181%;
+}
+
+.para2{
+    color: #777777;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-align: left;
+    line-height:181%;
+    font-family: "PT Serif";
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.featureicon{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.tick{
+    height:10px;
+    width:10px;
+}
+
+.fa-check{
+    color:#10A5AB;
+}
+
+.border{
+    border: 5px solid black;
+}
+
+#bookheader{
+    background-color: rgb(245,245,245);
+    padding: 45px 0 45px 0;
+}
+
+.booking-button{
+    background-color: #10A5AB;
+    color:white;
+    cursor: pointer;
+}
+
+h3{
+    display: inline-block;
+}
+
+.bradius{
+    border-radius: 999px;
+    padding: 16px 38px 16px 38px;
+}
+
+body, html {
+    height: 100%;
+    font-family: "Lato";
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../images/p1.jpg");
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#process{
+    color: white;
+}
+
+#hr{
+    height:1px;border:none;color:#fff;background-color:#fff;width:13%;
+}
+
+#picons{
+    max-height: 100px;
+    max-width: 100px;
+}
+.p1{
+    display:inline-block;
+}
+
+.navbar-light .navbar-toggler{
+    background-color: white;
+}
+
+.nav-item, .navbar-brand{
+    font-weight: 700;
+    color: white !important;
+}
+
+.scrolled{
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    color: black !important;
+}
+
+#grey{
+    background-color: #F5F5F5;
+}
+
+#nopadding{
+    padding: 0;
+}
+
+h5{
+    display: block;
+    letter-spacing: 2px;
+    font-size 17px;
+    font-weight: 700;
+}
+
+h4{
+    display: block;
+    letter-spacing: 1.8px;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+#footer{
+    background-color: #222222;
+}
+
+.f{
+    color: white;
+}
+
+.para3{
+    color: #A8B1B6;
+}
+
+.footer-hr{
+    width:25%;
+    background-color: white;
+}
+.img{
+    height:100%;
+}
+
+.package:hover{
+    background-color:#eff1f0f5;
+    cursor: pointer;
+}
+
+.hcolor{
+    color: #10A5AB;
+    font-weight: 700;
+    font-size: 300%;
+}
+
+.para4{
+    font-size: 100%;
+    line-height:181%;
+}
+
+#prices{
+    display: none;
+}
+
+#form{
+    display:none;
+}

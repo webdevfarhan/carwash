@@ -1,3 +1,4 @@
+$cartype = "";
 $(function () {
     $(document).scroll(function () {
         var $nav = $("nav");
@@ -20,6 +21,7 @@ $("#hatchback").on("click", function(){
         $("#gold").text("400");
         $("#platinum").text("600");
         $("#prices").css("display", "flex");
+        $cartype = "HatchBack";
       });
 });
 
@@ -30,6 +32,7 @@ $("#sedan").on("click", function(){
         $("#gold").text("500");
         $("#platinum").text("700");
         $("#prices").css("display", "flex");
+        $cartype = "Sedan";
       });
 });
 
@@ -40,6 +43,7 @@ $("#suv-muv").on("click", function(){
         $("#gold").text("600");
         $("#platinum").text("900");
         $("#prices").css("display", "flex");
+        $cartype = "Suv-Muv";
       });
 });
 
@@ -48,6 +52,7 @@ $("#silver-btn").on("click", function(){
     $("#prices").fadeOut("slow", function() {
         $("#change").text("Fill Some Details :");
         $("#form").css("display", "flex");
+        $("#disabledInput").val($cartype);
     });
 });
 
@@ -56,6 +61,7 @@ $("#gold-btn").on("click", function(){
     $("#prices").fadeOut("slow", function() {
         $("#change").text("Fill Some Details :");
         $("#form").css("display", "flex");
+        $("#disabledInput").val($cartype);
     });
 });
 
@@ -64,5 +70,6 @@ $("#platinum-btn").on("click", function(){
     $("#prices").fadeOut("slow", function() {
         $("#change").text("Fill Some Details :");
         $("#form").css("display", "flex");
+        $("#disabledInput").val($cartype);
     });
 });

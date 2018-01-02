@@ -1,4 +1,3 @@
-# carwash
 <h1>Startup Carwash Website</h1>
 
 Technologies Used :
